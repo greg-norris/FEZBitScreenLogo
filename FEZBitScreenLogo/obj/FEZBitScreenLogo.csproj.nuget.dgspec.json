@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\GHI\\Source\\Repos\\FEZBitScreenLogo\\FEZBitScreenLogo\\FEZBitScreenLogo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GHI\\Source\\Repos\\FEZBitScreenLogo\\FEZBitScreenLogo\\FEZBitScreenLogo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GHI\\Source\\Repos\\FEZBitScreenLogo\\FEZBitScreenLogo\\FEZBitScreenLogo.csproj",
+        "projectName": "FEZBitScreenLogo",
+        "projectPath": "C:\\Users\\GHI\\Source\\Repos\\FEZBitScreenLogo\\FEZBitScreenLogo\\FEZBitScreenLogo.csproj",
+        "packagesPath": "C:\\Users\\GHI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GHI\\Source\\Repos\\FEZBitScreenLogo\\FEZBitScreenLogo\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GHI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Users\\GHI\\Desktop\\Local Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "GHIElectronics.TinyCLR.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "GHIElectronics.TinyCLR.Devices.Display": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "GHIElectronics.TinyCLR.Devices.Spi": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "GHIElectronics.TinyCLR.Drawing": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "GHIElectronics.TinyCLR.Pins": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

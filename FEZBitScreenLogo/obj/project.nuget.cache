@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "FIdeKH4Y06HUSV3fsCh6uGjcw0+0WcIqAHNbShlPnnZA0eshbm5nwnbGwKonrPhCElOaqAD8nbx64b5xpOvzLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GHI\\Source\\Repos\\FEZBitScreenLogo\\FEZBitScreenLogo\\FEZBitScreenLogo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GHI\\.nuget\\packages\\ghielectronics.tinyclr.core\\2.1.0\\ghielectronics.tinyclr.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\GHI\\.nuget\\packages\\ghielectronics.tinyclr.devices.display\\2.1.0\\ghielectronics.tinyclr.devices.display.2.1.0.nupkg.sha512",
+    "C:\\Users\\GHI\\.nuget\\packages\\ghielectronics.tinyclr.devices.gpio\\2.1.0\\ghielectronics.tinyclr.devices.gpio.2.1.0.nupkg.sha512",
+    "C:\\Users\\GHI\\.nuget\\packages\\ghielectronics.tinyclr.devices.signals\\2.1.0\\ghielectronics.tinyclr.devices.signals.2.1.0.nupkg.sha512",
+    "C:\\Users\\GHI\\.nuget\\packages\\ghielectronics.tinyclr.devices.spi\\2.1.0\\ghielectronics.tinyclr.devices.spi.2.1.0.nupkg.sha512",
+    "C:\\Users\\GHI\\.nuget\\packages\\ghielectronics.tinyclr.drawing\\2.1.0\\ghielectronics.tinyclr.drawing.2.1.0.nupkg.sha512",
+    "C:\\Users\\GHI\\.nuget\\packages\\ghielectronics.tinyclr.drivers.sitronix.st7735\\2.1.0\\ghielectronics.tinyclr.drivers.sitronix.st7735.2.1.0.nupkg.sha512",
+    "C:\\Users\\GHI\\.nuget\\packages\\ghielectronics.tinyclr.drivers.worldsemi.ws2812\\2.1.0\\ghielectronics.tinyclr.drivers.worldsemi.ws2812.2.1.0.nupkg.sha512",
+    "C:\\Users\\GHI\\.nuget\\packages\\ghielectronics.tinyclr.native\\2.1.0\\ghielectronics.tinyclr.native.2.1.0.nupkg.sha512",
+    "C:\\Users\\GHI\\.nuget\\packages\\ghielectronics.tinyclr.pins\\2.1.1\\ghielectronics.tinyclr.pins.2.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

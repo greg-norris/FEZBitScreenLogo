@@ -1,0 +1,752 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "GHIElectronics.TinyCLR.Core/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net452/mscorlib.dll": {}
+        },
+        "runtime": {
+          "lib/net452/mscorlib.dll": {}
+        },
+        "build": {
+          "build/net452/GHIElectronics.TinyCLR.Core.props": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Display/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Display.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Display.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Gpio/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Gpio.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Gpio.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Signals/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Signals.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Signals.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Spi/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Spi.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Spi.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drawing/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drawing.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Spi": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Signals": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Native/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Native.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Native.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Pins/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Pins.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Pins.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "GHIElectronics.TinyCLR.Core/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net452/mscorlib.dll": {}
+        },
+        "runtime": {
+          "lib/net452/mscorlib.dll": {}
+        },
+        "build": {
+          "build/net452/GHIElectronics.TinyCLR.Core.props": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Display/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Display.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Display.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Gpio/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Gpio.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Gpio.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Signals/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Signals.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Signals.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Spi/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Spi.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Spi.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drawing/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drawing.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Spi": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Signals": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Native/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Native.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Native.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Pins/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Pins.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Pins.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "GHIElectronics.TinyCLR.Core/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net452/mscorlib.dll": {}
+        },
+        "runtime": {
+          "lib/net452/mscorlib.dll": {}
+        },
+        "build": {
+          "build/net452/GHIElectronics.TinyCLR.Core.props": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Display/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Display.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Display.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Gpio/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Gpio.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Gpio.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Signals/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Signals.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Signals.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Spi/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Spi.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Spi.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drawing/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drawing.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Spi": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Signals": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Native/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Native.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Native.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Pins/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Pins.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Pins.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "GHIElectronics.TinyCLR.Core/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net452/mscorlib.dll": {}
+        },
+        "runtime": {
+          "lib/net452/mscorlib.dll": {}
+        },
+        "build": {
+          "build/net452/GHIElectronics.TinyCLR.Core.props": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Display/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Display.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Display.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Gpio/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Gpio.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Gpio.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Signals/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Signals.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Signals.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Devices.Spi/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Spi.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Devices.Spi.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drawing/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drawing.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Spi": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Gpio": "2.1.0",
+          "GHIElectronics.TinyCLR.Devices.Signals": "2.1.0",
+          "GHIElectronics.TinyCLR.Native": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Native/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Native.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Native.dll": {}
+        }
+      },
+      "GHIElectronics.TinyCLR.Pins/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/net452/GHIElectronics.TinyCLR.Pins.dll": {}
+        },
+        "runtime": {
+          "lib/net452/GHIElectronics.TinyCLR.Pins.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GHIElectronics.TinyCLR.Core/2.1.0": {
+      "sha512": "AUcWkeRUXEYPtAUdXh70wH6HLUeedxUZGWprLhpB/mXHEyo5eOfOA1wcPR37kgkP7A8hUXWcEHvFysKCS5wy+g==",
+      "type": "package",
+      "path": "ghielectronics.tinyclr.core/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net452/GHIElectronics.TinyCLR.Core.props",
+        "ghielectronics.tinyclr.core.2.1.0.nupkg.sha512",
+        "ghielectronics.tinyclr.core.nuspec",
+        "lib/net452/mscorlib.dll"
+      ]
+    },
+    "GHIElectronics.TinyCLR.Devices.Display/2.1.0": {
+      "sha512": "HJVKPVZwHOOfyCXNJSYqtMQKG03lNQi7jc/9Mb56SzzfpL6Bk4M1FCw5L5FlPQcZyuCU6rUQJDE2g/6Isdq99A==",
+      "type": "package",
+      "path": "ghielectronics.tinyclr.devices.display/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "ghielectronics.tinyclr.devices.display.2.1.0.nupkg.sha512",
+        "ghielectronics.tinyclr.devices.display.nuspec",
+        "lib/net452/GHIElectronics.TinyCLR.Devices.Display.dll"
+      ]
+    },
+    "GHIElectronics.TinyCLR.Devices.Gpio/2.1.0": {
+      "sha512": "CbHjku84Djw3DMBlJeHP6YoaLDBrnKAv23TUn7B49f6UtB7cOo0guANyeUu7CYuIVv7EQ7gsdvxl8M1UKJ1XGg==",
+      "type": "package",
+      "path": "ghielectronics.tinyclr.devices.gpio/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ghielectronics.tinyclr.devices.gpio.2.1.0.nupkg.sha512",
+        "ghielectronics.tinyclr.devices.gpio.nuspec",
+        "lib/net452/GHIElectronics.TinyCLR.Devices.Gpio.dll"
+      ]
+    },
+    "GHIElectronics.TinyCLR.Devices.Signals/2.1.0": {
+      "sha512": "PeeTO81dJGt2B0BoxdYGKH8xI6w0iCo90YA8BVh63+SPJ/bzudp7LmpMw4g9X01JbuEeBF0r11Aaz/ced+COXQ==",
+      "type": "package",
+      "path": "ghielectronics.tinyclr.devices.signals/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ghielectronics.tinyclr.devices.signals.2.1.0.nupkg.sha512",
+        "ghielectronics.tinyclr.devices.signals.nuspec",
+        "lib/net452/GHIElectronics.TinyCLR.Devices.Signals.dll"
+      ]
+    },
+    "GHIElectronics.TinyCLR.Devices.Spi/2.1.0": {
+      "sha512": "QsatQt8fJz17Q139HDUjSYfv0rPp8C3vtMpTSjBSxt5+pEcQcC4jjys4JgEebtG8r35PJSkdDbTNLiCghyvfTA==",
+      "type": "package",
+      "path": "ghielectronics.tinyclr.devices.spi/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ghielectronics.tinyclr.devices.spi.2.1.0.nupkg.sha512",
+        "ghielectronics.tinyclr.devices.spi.nuspec",
+        "lib/net452/GHIElectronics.TinyCLR.Devices.Spi.dll"
+      ]
+    },
+    "GHIElectronics.TinyCLR.Drawing/2.1.0": {
+      "sha512": "zftU1J7p5iGFyKefWWLbxpF7UudM21I9n/NHwmpgX1pY0jYaJUDkUwfc7qx6I7L4EWgs+9iLMTonkjA8uu1/TQ==",
+      "type": "package",
+      "path": "ghielectronics.tinyclr.drawing/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "ghielectronics.tinyclr.drawing.2.1.0.nupkg.sha512",
+        "ghielectronics.tinyclr.drawing.nuspec",
+        "lib/net452/GHIElectronics.TinyCLR.Drawing.dll"
+      ]
+    },
+    "GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735/2.1.0": {
+      "sha512": "v1W7ZlYPHviho32y4Wj8RMCtqr8USZMVqt0KZ14AM9dbkdyBK8tBAQpc5vLsB8kjj1ABX5PyEanfI5djYn+2Zw==",
+      "type": "package",
+      "path": "ghielectronics.tinyclr.drivers.sitronix.st7735/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "ghielectronics.tinyclr.drivers.sitronix.st7735.2.1.0.nupkg.sha512",
+        "ghielectronics.tinyclr.drivers.sitronix.st7735.nuspec",
+        "lib/net452/GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735.dll"
+      ]
+    },
+    "GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812/2.1.0": {
+      "sha512": "d6lZjWY3Ojh9VmqaH686bVheA7oSRqOAlY0xSBcyRdacO8/hC6zSOAcT9D9wr33+wvpr3H4JAXu3KPykvHVWHA==",
+      "type": "package",
+      "path": "ghielectronics.tinyclr.drivers.worldsemi.ws2812/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ghielectronics.tinyclr.drivers.worldsemi.ws2812.2.1.0.nupkg.sha512",
+        "ghielectronics.tinyclr.drivers.worldsemi.ws2812.nuspec",
+        "lib/net452/GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812.dll"
+      ]
+    },
+    "GHIElectronics.TinyCLR.Native/2.1.0": {
+      "sha512": "VJdTC8JGlHLHN+5XluMcoxMFLxDbMsik7LxDB15AjtpbXM0/ATbYqKt5cRxJaEf84bb9Ln7dzatqyTVgVfFmAA==",
+      "type": "package",
+      "path": "ghielectronics.tinyclr.native/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ghielectronics.tinyclr.native.2.1.0.nupkg.sha512",
+        "ghielectronics.tinyclr.native.nuspec",
+        "lib/net452/GHIElectronics.TinyCLR.Native.dll"
+      ]
+    },
+    "GHIElectronics.TinyCLR.Pins/2.1.1": {
+      "sha512": "x4cUyPkFi6bNCzuJaOv1sCaV8NP+yscTqNlq0L0M8t4Sa+sEug2OXLWz6AK2bVxwqaj3WFzfSjGdHU8NhY934Q==",
+      "type": "package",
+      "path": "ghielectronics.tinyclr.pins/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        "ghielectronics.tinyclr.pins.2.1.1.nupkg.sha512",
+        "ghielectronics.tinyclr.pins.nuspec",
+        "lib/net452/GHIElectronics.TinyCLR.Pins.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "GHIElectronics.TinyCLR.Core >= 2.1.0",
+      "GHIElectronics.TinyCLR.Devices.Display >= 2.1.0",
+      "GHIElectronics.TinyCLR.Devices.Spi >= 2.1.0",
+      "GHIElectronics.TinyCLR.Drawing >= 2.1.0",
+      "GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735 >= 2.1.0",
+      "GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812 >= 2.1.0",
+      "GHIElectronics.TinyCLR.Pins >= 2.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\GHI\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\GHI\\Source\\Repos\\FEZBitScreenLogo\\FEZBitScreenLogo\\FEZBitScreenLogo.csproj",
+      "projectName": "FEZBitScreenLogo",
+      "projectPath": "C:\\Users\\GHI\\Source\\Repos\\FEZBitScreenLogo\\FEZBitScreenLogo\\FEZBitScreenLogo.csproj",
+      "packagesPath": "C:\\Users\\GHI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GHI\\Source\\Repos\\FEZBitScreenLogo\\FEZBitScreenLogo\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\GHI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Users\\GHI\\Desktop\\Local Nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "GHIElectronics.TinyCLR.Core": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "GHIElectronics.TinyCLR.Devices.Display": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "GHIElectronics.TinyCLR.Devices.Spi": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "GHIElectronics.TinyCLR.Drawing": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "GHIElectronics.TinyCLR.Pins": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
