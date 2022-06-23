@@ -44,25 +44,25 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="GHIElectronics.TinyCLR.Core">
-      <Version>2.1.0</Version>
+      <Version>2.2.0.4200</Version>
     </PackageReference>
     <PackageReference Include="GHIElectronics.TinyCLR.Devices.Display">
-      <Version>2.1.0</Version>
+      <Version>2.2.0.4200</Version>
     </PackageReference>
     <PackageReference Include="GHIElectronics.TinyCLR.Devices.Spi">
-      <Version>2.1.0</Version>
+      <Version>2.2.0.4200</Version>
     </PackageReference>
     <PackageReference Include="GHIElectronics.TinyCLR.Drawing">
-      <Version>2.1.0</Version>
+      <Version>2.2.0.4200</Version>
     </PackageReference>
     <PackageReference Include="GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735">
-      <Version>2.1.0</Version>
+      <Version>2.2.0.4200</Version>
     </PackageReference>
     <PackageReference Include="GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812">
-      <Version>2.1.0</Version>
+      <Version>2.2.0.4200</Version>
     </PackageReference>
     <PackageReference Include="GHIElectronics.TinyCLR.Pins">
-      <Version>2.1.1</Version>
+      <Version>2.2.0.4200</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

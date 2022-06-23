@@ -40,31 +40,31 @@
           "dependencies": {
             "GHIElectronics.TinyCLR.Core": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.2.0.4200, )"
             },
             "GHIElectronics.TinyCLR.Devices.Display": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.2.0.4200, )"
             },
             "GHIElectronics.TinyCLR.Devices.Spi": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.2.0.4200, )"
             },
             "GHIElectronics.TinyCLR.Drawing": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.2.0.4200, )"
             },
             "GHIElectronics.TinyCLR.Drivers.Sitronix.ST7735": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.2.0.4200, )"
             },
             "GHIElectronics.TinyCLR.Drivers.Worldsemi.WS2812": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.2.0.4200, )"
             },
             "GHIElectronics.TinyCLR.Pins": {
               "target": "Package",
-              "version": "[2.1.1, )"
+              "version": "[2.2.0.4200, )"
             }
           }
         }
